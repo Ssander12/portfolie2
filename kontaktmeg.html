@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt Meg</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            overflow-x: hidden;
+            opacity: 0; 
+            animation: fadeIn 1s ease-in forwards; 
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #005f99;
+            animation: bounceIn 1.2s ease; 
+        }
+        .contact-info {
+            margin: 20px 0;
+            line-height: 1.6;
+            animation: fadeIn 1.5s ease-in-out; 
+        }
+        .contact-info a {
+            color: #005f99;
+            text-decoration: none;
+            transition: color 0.3s ease; 
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #003f6b; 
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            color: #333;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: transform 0.3s ease; 
+        }
+        .social-links a:hover {
+            color: #005f99;
+            transform: scale(1.1); 
+        }
+
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            60% {
+                opacity: 1;
+                transform: translateY(10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Kontakt Meg</h2>
+    <p>Du er velkommen til å kontakte meg på e-post eller telefon.</p>
+    
+    <div class="contact-info">
+        <p><strong>E-post:</strong> <a href="mailto:sandersorvik@outlook.com">sandersorvik@outlook.com</a></p>
+        <p><strong>Telefon:</strong> <a href="tel:+4792289081">+47 922 89 081</a></p>
+        <p><strong>Adresse:</strong> Gamleskjoldavegen 8, 5533 Haugesund</p>
+    </div>
+
+    <div class="social-links">
+
+    </div>
+</div>
+
+</body>
+</html>
